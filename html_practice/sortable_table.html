@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- <script src="List.js"></script> -->
+<head>
+<meta charset="UTF-8">
+<title>HTML5サンプル</title>
+</head>
+<body>
+<p>HTML5で作成しました！</p>
+<div id="users">
+  <table border="1">
+    <thead>
+      <tr>
+        <th class="sort" data-sort="name">Name</th>
+        <th class="sort" data-sort="born">Born</th>
+        <th class="sort" data-sort="sex">Sex</th>
+      </tr>
+    </thead>
+    <!-- IMPORTANT, class="list" have to be at tbody -->
+    <tbody class="list">
+      <tr>
+        <td class="name">Jonny Stromberg</td>
+        <td class="born">1986</td>
+        <td class="sex">male</td>
+      </tr>
+      <tr>
+        <td class="name">Jonas Arnklint</td>
+        <td class="born">1985</td>       
+        <td class="sex">female</td>
+      </tr>
+      <tr>
+        <td class="name">Martina Elm</td>
+        <td class="born">1986</td>
+        <td class="sex">female</td>
+      </tr>
+      <tr>
+        <td class="name">Gustaf Lindqvist</td>
+        <td class="born">1983</td>
+	    <td class="sex">male</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- <script type="List.js"></script>
+ --> <script>
+var options = {
+  valueNames: [ 'name', 'born' , 'sex']
+};
+var userList = new List('users', options);
+userList.sort( 'name', {order : 'desc' });
+// userList.sort( 'name', {order : 'desc'});
+// userList.sort( 'sex', {order : 'desc'});
+</script>
+
+<style>
+.sort.desc:after {
+  content:"▼";
+}
+.sort.asc:after {
+  content:"▲";
+}
+</style>
+</body>
+</html>
