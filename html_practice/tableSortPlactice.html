@@ -13,6 +13,7 @@
 
         var data = [];
         var tr = $("#ttable tr"); //テーブルの全行を取得
+        // 配列dataにテーブル上のデータを格納
         for( var i = 0, l = tr.length; i < l; i++) {
           var cells = tr.eq(i).children();
           for (var j = 0, m =cells.length; j < m; j++) {
@@ -27,6 +28,24 @@
         var header = data[0];
         delete data[0];
 
+        // table input 取得
+        var ti = 0;
+        $("#ttable input:checked").each(
+          function(){
+            ti++;
+            console.log(ti + " toretate:" + $(this).val());
+          }
+        );
+
+        // input をデータに格納
+        var i = 1;
+        $("#ttable input:checked").each(
+          function(){
+            data[i][2] = $(this).val();
+            i++;
+          }
+        );
+
         // SORT
         var result = data.sort(function(a,b) {
           if (a.toString().toLowerCase() > b.toString().toLowerCase()) {
@@ -38,11 +57,42 @@
           return 0;
         });
 
+
+
+        // ソート結果を出力
         for (var i = 0, l = result.length -1; i < l; i++) {
           for (var j = 0, m = result[0].length; j < m; j++ ) {
             console.log(i + "," + j + " " + result[i][j] );
           }
         }
+
+        // ソート結果をテーブルに格納
+        for (var i = 1, l = result.length; i < l; i++) {
+          var cells = tr.eq(i).children();
+          for (var j = 0, m = result[0].length -1; j < m; j++ ) {
+            t.rows[i].cells[j].innerText = result[i-1][j];
+            console.log(i + "," + j + " " + result[i-1][j] );
+          }
+        }
+
+        //http://kimizuka.hatenablog.com/entry/2015/07/25/000000
+        // tableのinput にresultを反映
+        var i = 0; //同じnameのinputの番号
+        var j = 0; //resultの行番号
+        var num_radios = 2 // ラジオボタンの選択肢の数
+        $("#ttable input:radio").each(
+          function(){
+            if(i == result[j][2]) {
+              $(this).prop("checked", true);
+              console.log("checked(", i, ",", j, ")");
+            }
+            i++;
+            if (i == num_radios) {
+              i = 0;
+              j++;
+            }
+          }
+        );
 
         target.innerHTML = header;
         target2.innerHTML = "(" + result.length + " " +  result[1].length + ")";
