@@ -5,130 +5,211 @@
   <title>tableSortPlactice</title>
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script>
-    $(function() {
-      $('#btn1').click(function() {
-        var t = document.querySelector('#ttable');
-        target = document.getElementById("output");
-        target2 = document.getElementById("output2");
+  $(function() {
+    $('#btn1').click(function() {
+      var t = document.querySelector('#ttable');
+      target = document.getElementById("output");
+      target2 = document.getElementById("output2");
 
-        var data = [];
-        var tr = $("#ttable tr"); //テーブルの全行を取得
-        // 配列dataにテーブル上のデータを格納
-        for( var i = 0, l = tr.length; i < l; i++) {
-          var cells = tr.eq(i).children();
-          for (var j = 0, m =cells.length; j < m; j++) {
-            if (typeof data[i] == "undefined") {
-              data[i] = [];
-            }
-            data[i][j] = cells.eq(j).text();//i行目j列の文字列を取得
-            // console.log(i + "," + j + " " + data[i][j])
-          };
+      var data = [];
+      var tr = $("#ttable tr"); //テーブルの全行を取得
+      // 配列dataにテーブル上のデータを格納
+      for( var i = 0, l = tr.length; i < l; i++) {
+        var cells = tr.eq(i).children();
+        for (var j = 0, m =cells.length; j < m; j++) {
+          if (typeof data[i] == "undefined") {
+            data[i] = [];
+          }
+          data[i][j] = cells.eq(j).text();//i行目j列の文字列を取得
+          // console.log(i + "," + j + " " + data[i][j])
         };
+      };
 
-        var header = data[0];
-        delete data[0];
+      var header = data[0];
+      delete data[0];
 
-        // table input 取得
-        var ti = 0;
-        $("#ttable input:checked").each(
-          function(){
-            ti++;
-            console.log(ti + " toretate:" + $(this).val());
-          }
-        );
-
-        // input をデータに格納
-        var i = 1;
-        $("#ttable input:checked").each(
-          function(){
-            data[i][2] = $(this).val();
-            i++;
-          }
-        );
-
-        // SORT
-        var result = data.sort(function(a,b) {
-          if (a.toString().toLowerCase() > b.toString().toLowerCase()) {
-            return -1;
-          }
-          else if  (a.toString().toLowerCase() < b.toString().toLowerCase()) {
-            return 1;
-          }
-          return 0;
-        });
-
-
-
-        // ソート結果を出力
-        for (var i = 0, l = result.length -1; i < l; i++) {
-          for (var j = 0, m = result[0].length; j < m; j++ ) {
-            console.log(i + "," + j + " " + result[i][j] );
-          }
+      // table input 取得
+      var ti = 0;
+      $("#ttable input:checked").each(
+        function(){
+          ti++;
+          console.log(ti + " toretate:" + $(this).val());
         }
+      );
 
-        // ソート結果をテーブルに格納
-        for (var i = 1, l = result.length; i < l; i++) {
-          var cells = tr.eq(i).children();
-          for (var j = 0, m = result[0].length -1; j < m; j++ ) {
-            t.rows[i].cells[j].innerText = result[i-1][j];
-            console.log(i + "," + j + " " + result[i-1][j] );
-          }
+      // input radioボタンをデータに格納
+      var i = 1;
+      $("#ttable input:checked").each(
+        function(){
+          data[i][2] = $(this).val();
+          i++;
         }
+      );
 
-        //http://kimizuka.hatenablog.com/entry/2015/07/25/000000
-        // tableのinput にresultを反映
-        var i = 0; //同じnameのinputの番号
-        var j = 0; //resultの行番号
-        var num_radios = 2 // ラジオボタンの選択肢の数
-        $("#ttable input:radio").each(
-          function(){
-            if(i == result[j][2]) {
-              $(this).prop("checked", true);
-              console.log("checked(", i, ",", j, ")");
-            }
-            i++;
-            if (i == num_radios) {
-              i = 0;
-              j++;
-            }
-          }
-        );
+      // input textをデータに格納
+      var i = 1;
+      $('#ttable input:text').each(
+        function(){
+          data[i][3] = $(this).val();
+          console.log("in:text:" + i + " " + $(this).val() );
+          i++;
+        }
+      );
 
-        target.innerHTML = header;
-        target2.innerHTML = "(" + result.length + " " +  result[1].length + ")";
+      // option selectedをデータに格納
+      var i = 1;
+      $('#ttable option:selected').each(
+        function(){
+          data[i][4] = $(this).val();
+          console.log("selected:" + i + " " + $(this).val() );
+          i++;
+        }
+      );
 
+      // SORT
+      var result = data.sort(function(a,b) {
+        if (a.toString().toLowerCase() > b.toString().toLowerCase()) {
+          return -1;
+        }
+        else if  (a.toString().toLowerCase() < b.toString().toLowerCase()) {
+          return 1;
+        }
+        return 0;
       });
+
+
+
+      // ソート結果を出力
+      for (var i = 0, l = result.length -1; i < l; i++) {
+        for (var j = 0, m = result[0].length; j < m; j++ ) {
+          console.log(i + "," + j + " " + result[i][j] );
+        }
+      }
+
+      // ソート結果をテーブルに格納
+      var num_columns_input = 3; //そのままテーブルに入れない分
+      for (var i = 1, l = result.length; i < l; i++) {
+        var cells = tr.eq(i).children();
+        for (var j = 0, m = result[0].length - num_columns_input; j < m; j++ ) {
+          t.rows[i].cells[j].innerText = result[i-1][j];
+          console.log("innter:" + i + "," + j + " " + result[i-1][j] );
+        }
+      }
+
+      //http://kimizuka.hatenablog.com/entry/2015/07/25/000000
+      // tableのinput radioにresultを反映
+      var i = 0; //同じnameのinputの番号
+      var j = 0; //resultの行番号
+      var num_radios = 2; // ラジオボタンの選択肢の数
+      var num_column = 2; // ラジオボタンの列番号
+      $("#ttable input:radio").each(
+        function(){
+          if(i == result[j][num_column]) {
+            $(this).prop("checked", true);
+            console.log("checked(", i, ",", j, ")");
+          }
+          i++;
+          if (i == num_radios) {
+            i = 0;
+            j++;
+          }
+        }
+      );
+
+      // input type=textのソート結果をテーブルに格納
+      var i = 0;
+      var num_column = 3; // input textの列番号
+      $("#ttable input:text").each(
+        function(){
+          $(this).val(result[i][num_column]);
+          console.log("input:text:" + i + " " + result[i][num_column] );
+          i++;
+        }
+      )
+
+      // option selected ソート結果をテーブルに格納
+      var i = 0;
+      var num_column = 4; // selectの列番号
+      $("#ttable select").each(
+        function(){
+          $(this).val(result[i][num_column]);
+          console.log("option selected:" + i + " " + result[i][num_column] );
+          i++;
+        }
+      )
+
+
+
+      target.innerHTML = header;
+      target2.innerHTML = "(" + result.length + " " +  result[1].length + ")";
+
     });
+  });
 
   </script>
 </head>
 <body>
   <input type="button" id="btn1" value='botton'>
 
-<!-- radio:nameを統一してはいけない -->
+  <!-- radio:nameを統一してはいけない -->
   <table border="1" id="ttable">
-    <tr><th>1</th><th>2</th><th>3</th></tr>
-    <tr><td>a1</td><td>a2</td><td>
+    <tr><th>1</th><th>2</th><th>3</th><th>4</th><th>
+      5</th>
+    </th></tr>
+    <tr><td>a1</td><td>a2</td>
+    </td><td>
       <p>
         <input type="radio" name="example_a" value="0">0
         <input type="radio" name="example_a" value="1" checked>1
       </p>
-    </td></tr>
-    <tr><td>b1</td><td>b2</td><td>      <p>
-      <input type="radio" name="example_b" value="0">0
-      <input type="radio" name="example_b" value="1" checked>1
-    </p>
-  </td></tr>
-  <tr><td>c1</td><td>c2</td><td>      <p>
+    </td>
+    <td><input type="text" value="a4" name="aaaa" /></td>
+    <td><select >
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+  </td>
+</tr>
+<tr><td>b1</td><td>b2</td><td>      <p>
+  <input type="radio" name="example_b" value="0">0
+  <input type="radio" name="example_b" value="1" checked>1
+</p></td>
+<td><input type="text" value="b4" /></td>
+<td><select >
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+</select>
+</td>
+
+</tr>
+<tr><td>c1</td><td>c2</td><td>
+  <p>
     <input type="radio" name="example_c" value="0">0
     <input type="radio" name="example_c" value="1" checked>1
-  </p>
-</td></tr>
+  </p></td>
+  <td><input type="text" value="c4" /></td>
+  <td><select >
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+  </select>
+</td>
+</tr>
 <tr><td>d1</td><td>d2</td><td>      <p>
   <input type="radio" name="example_d" value="0">0
   <input type="radio" name="example_d" value="1" checked>1
-</p>
-</td></tr>
+</p></td>
+<td><input type="text" value="d4" /></td>
+</td>
+<td><select >
+  <option value="0">0</option>
+  <option value="1" selected>1</option>
+  <option value="2">2</option>
+</select>
+</td>
+</tr>
 </table>
 <div id ="output"></div>
 <div id ="output2"></div>

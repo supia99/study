@@ -1,0 +1,2 @@
+// テーブルロック解除について
+https://www.jpcert.or.jp/java-rules/lck08-j.html
