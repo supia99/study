@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang"ja">
+<head>
+  <meta charset="utf-8">
+  <title>iframe-practice</title>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script>
+  $(function(){
+    $('#btn1').click(function() {
+      var iframe1 = document.getElementById("frame1");
+      var input = iframe1.contentWindow.document.getElementById("output");
+
+      console.log("input:" + input.innerText);
+      //console.log("iframe:" + input.innnerText);
+    });
+  });
+  </script>
+</head>
+
+<body>
+  <input type="button" id="btn1" value='botton'>
+
+  <div id ="main_output"></div>
+  <iframe src="in_frame1.html" width="50%" height="500px" align="left" id="frame1" float:left></iframe>
+  <iframe src="in_frame2.html" width="40%" height="300" id="frame2"></iframe>
+</body>

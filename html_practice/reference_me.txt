@@ -6,3 +6,9 @@ http://www.webdesignleaves.com/wp/htmlcss/1485/
 
 // クロスサイトスクリプティング対策
 http://blog.katty.in/95
+
+//　リソース自身のURLの「スキーム」「ホスト」「ポート」の3つの組み合わせを「オリジン」
+http://www.atmarkit.co.jp/ait/articles/1311/26/news007.html
+
+//セキュリティポリシーとして、ブラウザがjsからiframeへのアクセスをブロックしています
+https://old-pine.net/html/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%8Cjs%E3%81%8B%E3%82%89iframe%E3%81%AE%E3%82%A8%E3%83%AC%E3%83%A1%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E7%8F%BE%E8%B1%A1%E5%8F%8A%E3%81%B3%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang"ja">
+<head>
+  <meta charset="utf-8">
+  <title>iframe-practice2</title>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('#button').click(function() {
+        var me_area = ('.button', parent.document).querySelector('#main_output');
+        me_area.innserHTML = "aaa"
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <input type="button" id="btn1" value='botton'>
+  <input type="button" id="btn2" value='botton href' onclick="location.href='./in_frame3.html'">  
+  <table border="1">
+    <tr>
+      <th>B</th>
+    </tr>
+    <tr>
+      <td>b</td>
+    </tr>
+  </table>
+</body>

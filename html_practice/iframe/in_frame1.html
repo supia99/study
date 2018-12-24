@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang"ja">
+<head>
+  <meta charset="utf-8">
+  <title>iframe-practice</title>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script>
+  $(function(){
+    $('#btn1').click(function() {
+      var doc = document.getElementById("output");
+      console.log("in_frame1 input:" + doc.innerText);
+    });
+  });
+  </script>
+</head>
+
+<body>
+  <div id ="output">aaa</div>
+  <input type="button" id="btn1" value='botton'>
+  <table border="1">
+    <tr>
+      <th>A</th>
+    </tr>
+    <tr>
+      <td>a</td>
+    </tr>
+  </table>
+  <iframe name="b" src="in_frame2.html"></iframe>
+</body>
