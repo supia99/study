@@ -10,13 +10,17 @@
     $('#btn1').click(function() {
       var doc = document.getElementById("output");
       console.log("in_frame1 input:" + doc.innerText);
+      ele = window.parent.document;
+      ele.getElementById('main_output').innerHTML = 'in_frame1より';
+      eleFrame2 = ele.getElementById('frame2');
+      eleFrame2.contentWindow.document.getElementById('frame2_output').innerText = 'in_frame1より';
     });
   });
   </script>
 </head>
 
 <body>
-  <div id ="output">aaa</div>
+  <div id ="output">aaaqq</div>
   <input type="button" id="btn1" value='botton'>
   <table border="1">
     <tr>

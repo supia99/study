@@ -10,8 +10,11 @@
     $('#btn1').click(function() {
       var iframe1 = document.getElementById("frame1");
       var input = iframe1.contentWindow.document.getElementById("output");
-
       console.log("input:" + input.innerText);
+      var iframe2 = document.getElementById("frame2");
+      var input = iframe2.contentWindow.document.getElementById("frame2_output");
+      input.innerText = "This is main_frame";
+
       //console.log("iframe:" + input.innnerText);
     });
   });

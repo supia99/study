@@ -1,0 +1,1040 @@
+1
+00:00:00,370 --> 00:00:04,640
+[Music]
+
+2
+00:00:06,049 --> 00:00:08,849
+hey what's up guys this is Lima wiggle
+
+3
+00:00:08,849 --> 00:00:10,410
+on your overwatch back with a new video
+
+4
+00:00:10,410 --> 00:00:12,780
+today I want to talk about some
+
+5
+00:00:12,780 --> 00:00:15,809
+abilities that people use wrong or don't
+
+6
+00:00:15,809 --> 00:00:18,869
+optimize in their games of overwatch of
+
+7
+00:00:18,869 --> 00:00:20,880
+course nearly two years in we're always
+
+8
+00:00:20,880 --> 00:00:23,100
+looking now at the things that we can
+
+9
+00:00:23,100 --> 00:00:25,590
+improve on the my new details that make
+
+10
+00:00:25,590 --> 00:00:27,390
+a big difference in the long run so
+
+11
+00:00:27,390 --> 00:00:29,160
+today I have a list of things for you
+
+12
+00:00:29,160 --> 00:00:30,390
+guys if there's anything you think
+
+13
+00:00:30,390 --> 00:00:32,340
+people use wrong feel free to let us
+
+14
+00:00:32,340 --> 00:00:33,930
+know in the comment section down below
+
+15
+00:00:33,930 --> 00:00:35,969
+so the first ability I want to talk
+
+16
+00:00:35,969 --> 00:00:38,100
+about is soldiers biotic field and
+
+17
+00:00:38,100 --> 00:00:39,360
+you're probably thinking that's a bit of
+
+18
+00:00:39,360 --> 00:00:41,910
+a weird one for a DPS and that's kind of
+
+19
+00:00:41,910 --> 00:00:44,040
+the point I wanted to make why otic
+
+20
+00:00:44,040 --> 00:00:47,129
+field actually does 204 healing over
+
+21
+00:00:47,129 --> 00:00:50,460
+five seconds on a five meter area of
+
+22
+00:00:50,460 --> 00:00:53,610
+effect it's incredibly good at healing a
+
+23
+00:00:53,610 --> 00:00:56,520
+big bulk of your team but unfortunately
+
+24
+00:00:56,520 --> 00:00:58,710
+what happens in a lot of games and I am
+
+25
+00:00:58,710 --> 00:01:00,960
+definitely guilty of this myself is a
+
+26
+00:01:00,960 --> 00:01:03,180
+soldier will take some damage early on
+
+27
+00:01:03,180 --> 00:01:05,549
+in a fight and just drop biotic field to
+
+28
+00:01:05,549 --> 00:01:08,250
+heal himself well in fact you got to
+
+29
+00:01:08,250 --> 00:01:09,990
+think you've probably got a healer at
+
+30
+00:01:09,990 --> 00:01:12,240
+least 2-1 in matchmaking right and that
+
+31
+00:01:12,240 --> 00:01:14,520
+healer is going to heal you just after
+
+32
+00:01:14,520 --> 00:01:16,530
+you take that damage so in a lot of
+
+33
+00:01:16,530 --> 00:01:18,990
+cases you want other people to heal you
+
+34
+00:01:18,990 --> 00:01:21,570
+and you save your biotic field for when
+
+35
+00:01:21,570 --> 00:01:24,060
+a bulk of your team need healing or
+
+36
+00:01:24,060 --> 00:01:26,220
+because soldiers such a bad Klein
+
+37
+00:01:26,220 --> 00:01:29,040
+character it's actually very good to use
+
+38
+00:01:29,040 --> 00:01:31,680
+his healing on a friendly Zenyatta or
+
+39
+00:01:31,680 --> 00:01:33,450
+anna that you have at the back there
+
+40
+00:01:33,450 --> 00:01:35,759
+with you that way if anything dives you
+
+41
+00:01:35,759 --> 00:01:37,560
+you just heal through it and you can
+
+42
+00:01:37,560 --> 00:01:39,299
+wreck it quite easily especially if you
+
+43
+00:01:39,299 --> 00:01:41,400
+have discord or down to it's an
+
+44
+00:01:41,400 --> 00:01:43,619
+incredibly versatile ability and
+
+45
+00:01:43,619 --> 00:01:45,600
+sometimes it's quite painful seeing
+
+46
+00:01:45,600 --> 00:01:47,670
+someone drop it just on themselves
+
+47
+00:01:47,670 --> 00:01:50,040
+sometimes even pro players have run
+
+48
+00:01:50,040 --> 00:01:52,560
+soldier in the support slot and used his
+
+49
+00:01:52,560 --> 00:01:54,450
+healing for bulk healing where they can
+
+50
+00:01:54,450 --> 00:01:56,670
+of course context always matters with
+
+51
+00:01:56,670 --> 00:01:58,290
+this kind of stuff but I hope this made
+
+52
+00:01:58,290 --> 00:01:59,610
+you think of some ways that you could
+
+53
+00:01:59,610 --> 00:02:02,219
+use it in your games moving on I have
+
+54
+00:02:02,219 --> 00:02:04,140
+one that's near and dear to me and I've
+
+55
+00:02:04,140 --> 00:02:06,210
+mentioned it before but I feel like it
+
+56
+00:02:06,210 --> 00:02:07,710
+needs to be said again
+
+57
+00:02:07,710 --> 00:02:11,400
+Moira's biotic orb is a very good source
+
+58
+00:02:11,400 --> 00:02:12,340
+of heat
+
+59
+00:02:12,340 --> 00:02:15,430
+and damage but one thing that I see
+
+60
+00:02:15,430 --> 00:02:18,460
+happen way too often he's either a Moira
+
+61
+00:02:18,460 --> 00:02:20,620
+thrower damage or about early in the
+
+62
+00:02:20,620 --> 00:02:23,050
+fight so that when it breaks she doesn't
+
+63
+00:02:23,050 --> 00:02:25,630
+have it to heal or she just doesn't ever
+
+64
+00:02:25,630 --> 00:02:28,120
+use the healing or whatsoever you do
+
+65
+00:02:28,120 --> 00:02:30,310
+have to bear in mind that this orb does
+
+66
+00:02:30,310 --> 00:02:35,050
+200 damage or 300 healings so it's 50%
+
+67
+00:02:35,050 --> 00:02:37,000
+more effective in the healing Department
+
+68
+00:02:37,000 --> 00:02:38,980
+and generally where you want to run
+
+69
+00:02:38,980 --> 00:02:41,530
+Moira is incomes where you need mass
+
+70
+00:02:41,530 --> 00:02:43,750
+healing so when your tanks walk out in
+
+71
+00:02:43,750 --> 00:02:45,190
+front of you you're gonna want to make
+
+72
+00:02:45,190 --> 00:02:47,230
+sure you can throw and all about them to
+
+73
+00:02:47,230 --> 00:02:49,209
+get the mass healing that way it's way
+
+74
+00:02:49,209 --> 00:02:52,060
+easier to manage your primary healing
+
+75
+00:02:52,060 --> 00:02:55,270
+fire and also regain that as well it's a
+
+76
+00:02:55,270 --> 00:02:56,620
+really good way to roll off the
+
+77
+00:02:56,620 --> 00:02:58,090
+abilities and make sure that your
+
+78
+00:02:58,090 --> 00:03:00,790
+healing keeps going on and on now if you
+
+79
+00:03:00,790 --> 00:03:02,800
+end up running Moira in some kind of
+
+80
+00:03:02,800 --> 00:03:05,140
+weird dive comp or a comm that doesn't
+
+81
+00:03:05,140 --> 00:03:06,850
+require as much healing because maybe
+
+82
+00:03:06,850 --> 00:03:09,010
+you have self healing like soldier
+
+83
+00:03:09,010 --> 00:03:11,350
+Roadhog and may then using the damaged
+
+84
+00:03:11,350 --> 00:03:13,989
+orb of course is very good but I can't
+
+85
+00:03:13,989 --> 00:03:16,060
+explain how many times I've seen in my
+
+86
+00:03:16,060 --> 00:03:18,070
+games where people need healing
+
+87
+00:03:18,070 --> 00:03:20,019
+Moira's out of resource and she just
+
+88
+00:03:20,019 --> 00:03:21,880
+goes off to throw damaged orbs at
+
+89
+00:03:21,880 --> 00:03:23,620
+somebody don't underestimate how good
+
+90
+00:03:23,620 --> 00:03:25,209
+the healing is it's really one of the
+
+91
+00:03:25,209 --> 00:03:28,450
+best in the game next up is IRISA holt
+
+92
+00:03:28,450 --> 00:03:30,880
+ability I think a lot of people don't
+
+93
+00:03:30,880 --> 00:03:33,730
+realize that this is a very strong
+
+94
+00:03:33,730 --> 00:03:36,760
+ability with an incredibly strong stun
+
+95
+00:03:36,760 --> 00:03:39,220
+that really pulls someone into position
+
+96
+00:03:39,220 --> 00:03:41,890
+and locks in their mobility for a second
+
+97
+00:03:41,890 --> 00:03:44,019
+or so but oftentimes what you'll see in
+
+98
+00:03:44,019 --> 00:03:46,360
+matchmaking is people throwing out this
+
+99
+00:03:46,360 --> 00:03:48,910
+orb to kind of crowd control them and
+
+100
+00:03:48,910 --> 00:03:51,160
+put them somewhere but they never really
+
+101
+00:03:51,160 --> 00:03:53,019
+think about where they're trying to put
+
+102
+00:03:53,019 --> 00:03:55,090
+them with this ability so here's some
+
+103
+00:03:55,090 --> 00:03:57,970
+examples one thing is really good at is
+
+104
+00:03:57,970 --> 00:04:00,489
+to pull in a Winston that's trying to
+
+105
+00:04:00,489 --> 00:04:03,430
+jump away the same goes for Genji or do
+
+106
+00:04:03,430 --> 00:04:05,769
+this them pesky characters that are
+
+107
+00:04:05,769 --> 00:04:07,870
+really annoying in the backline whole
+
+108
+00:04:07,870 --> 00:04:09,820
+can be used to stun them into position
+
+109
+00:04:09,820 --> 00:04:11,890
+and your team follow up on that damage
+
+110
+00:04:11,890 --> 00:04:14,290
+also sometimes you'll see an erisa throw
+
+111
+00:04:14,290 --> 00:04:16,839
+out a hallway too early when five
+
+112
+00:04:16,839 --> 00:04:18,820
+seconds later you need it to pull a
+
+113
+00:04:18,820 --> 00:04:20,349
+Bastion off the car
+
+114
+00:04:20,349 --> 00:04:23,349
+sometimes that ability especially versus
+
+115
+00:04:23,349 --> 00:04:25,110
+a Bastion comp
+
+116
+00:04:25,110 --> 00:04:28,050
+the counter for your team if you pull
+
+117
+00:04:28,050 --> 00:04:29,490
+that damage off the car
+
+118
+00:04:29,490 --> 00:04:31,379
+it doesn't receive healing from the cart
+
+119
+00:04:31,379 --> 00:04:33,300
+and then you can follow up on that
+
+120
+00:04:33,300 --> 00:04:35,310
+damage with your team Holt isn't an
+
+121
+00:04:35,310 --> 00:04:37,469
+ability that's actually used incorrectly
+
+122
+00:04:37,469 --> 00:04:39,889
+so much just I think completely
+
+123
+00:04:39,889 --> 00:04:42,330
+misunderstood actually she is one of the
+
+124
+00:04:42,330 --> 00:04:43,860
+newer heroes in the game although she's
+
+125
+00:04:43,860 --> 00:04:46,199
+been out for a while and I'd love to see
+
+126
+00:04:46,199 --> 00:04:48,689
+more use of that ability in terms of
+
+127
+00:04:48,689 --> 00:04:50,550
+pulling people off the high ground and
+
+128
+00:04:50,550 --> 00:04:52,199
+stunning them in position because when
+
+129
+00:04:52,199 --> 00:04:54,030
+you get that down it's incredibly
+
+130
+00:04:54,030 --> 00:04:56,789
+powerful now we have defense matrix I'm
+
+131
+00:04:56,789 --> 00:04:58,139
+not gonna talk about this forever
+
+132
+00:04:58,139 --> 00:04:59,789
+because I think we've made it abundantly
+
+133
+00:04:59,789 --> 00:05:02,460
+clear that this ability is misused all
+
+134
+00:05:02,460 --> 00:05:04,710
+the time one thing I just want to say
+
+135
+00:05:04,710 --> 00:05:06,690
+about it though is make sure you're
+
+136
+00:05:06,690 --> 00:05:09,000
+using it to catch relevant damage
+
+137
+00:05:09,000 --> 00:05:11,370
+unfortunately it's not like a Reinhardt
+
+138
+00:05:11,370 --> 00:05:13,919
+barrier anymore old defence matrix used
+
+139
+00:05:13,919 --> 00:05:15,870
+to be there all the time and you could
+
+140
+00:05:15,870 --> 00:05:18,000
+just hold it down a block all the damage
+
+141
+00:05:18,000 --> 00:05:20,490
+in the world now you have to use defense
+
+142
+00:05:20,490 --> 00:05:23,069
+matrix to protect your team and yourself
+
+143
+00:05:23,069 --> 00:05:26,279
+at optimal times only if your Winston
+
+144
+00:05:26,279 --> 00:05:28,319
+dives in and you fly up with them you
+
+145
+00:05:28,319 --> 00:05:30,180
+can use it to block the damage on the
+
+146
+00:05:30,180 --> 00:05:32,310
+Winston so that he can get all of his
+
+147
+00:05:32,310 --> 00:05:35,490
+damage out the strongest misuse I see of
+
+148
+00:05:35,490 --> 00:05:38,370
+it is people using it to get to an
+
+149
+00:05:38,370 --> 00:05:40,979
+objective or get to fight something at
+
+150
+00:05:40,979 --> 00:05:43,259
+that point is actually too late Frieda
+
+151
+00:05:43,259 --> 00:05:45,349
+did a very good video on this channel
+
+152
+00:05:45,349 --> 00:05:47,940
+explaining why good tanks don't need
+
+153
+00:05:47,940 --> 00:05:50,279
+healing or at least anywhere near as
+
+154
+00:05:50,279 --> 00:05:52,169
+much healing as they seem to need to in
+
+155
+00:05:52,169 --> 00:05:55,110
+ranked this is because diva is not a
+
+156
+00:05:55,110 --> 00:05:57,449
+face tank diva needs to be getting to
+
+157
+00:05:57,449 --> 00:05:59,490
+the point by using her movement and map
+
+158
+00:05:59,490 --> 00:06:02,219
+geometry and then use in defense matrix
+
+159
+00:06:02,219 --> 00:06:05,069
+in the face of things also don't forget
+
+160
+00:06:05,069 --> 00:06:07,409
+how powerful defense matrix is for
+
+161
+00:06:07,409 --> 00:06:09,779
+peeling for your teammates actually
+
+162
+00:06:09,779 --> 00:06:12,150
+staying in the backline and not using
+
+163
+00:06:12,150 --> 00:06:14,729
+diva as a frontline tank is also
+
+164
+00:06:14,729 --> 00:06:17,099
+extremely strong especially when there's
+
+165
+00:06:17,099 --> 00:06:18,930
+a tracer in the backline trying to stick
+
+166
+00:06:18,930 --> 00:06:21,479
+your team if you can time defense matrix
+
+167
+00:06:21,479 --> 00:06:23,339
+to defend your team you're gonna have a
+
+168
+00:06:23,339 --> 00:06:25,560
+much better time than trying to just fly
+
+169
+00:06:25,560 --> 00:06:28,830
+everyone and be a damage tank next up I
+
+170
+00:06:28,830 --> 00:06:30,990
+think we might have the most underrated
+
+171
+00:06:30,990 --> 00:06:33,360
+Altima in the entire game and that is
+
+172
+00:06:33,360 --> 00:06:36,209
+Winston's primal rage this is an
+
+173
+00:06:36,209 --> 00:06:38,529
+incredibly strong ability and you will
+
+174
+00:06:38,529 --> 00:06:41,589
+see this when you watch any Pro Winston
+
+175
+00:06:41,589 --> 00:06:43,839
+especially the best ones where they can
+
+176
+00:06:43,839 --> 00:06:46,239
+utilize it to do all kinds of different
+
+177
+00:06:46,239 --> 00:06:48,399
+things we all know you can stall out the
+
+178
+00:06:48,399 --> 00:06:50,229
+objective but a lot of the time that's
+
+179
+00:06:50,229 --> 00:06:52,419
+about the furthest extent that I think I
+
+180
+00:06:52,419 --> 00:06:55,029
+see it used you can use this ability to
+
+181
+00:06:55,029 --> 00:06:57,519
+juggle people whether they have an
+
+182
+00:06:57,519 --> 00:06:59,769
+ultimate or not is your choice but if a
+
+183
+00:06:59,769 --> 00:07:02,319
+soldier sites in or again Jie is leading
+
+184
+00:07:02,319 --> 00:07:04,899
+you can actually use your mobility and
+
+185
+00:07:04,899 --> 00:07:07,629
+your damage to put someone up against a
+
+186
+00:07:07,629 --> 00:07:09,879
+corner and then every time you jump you
+
+187
+00:07:09,879 --> 00:07:12,159
+do jump damage when you land and every
+
+188
+00:07:12,159 --> 00:07:13,899
+time you're flailing your fists around
+
+189
+00:07:13,899 --> 00:07:15,969
+you do a lot of damage now it isn't
+
+190
+00:07:15,969 --> 00:07:18,759
+quite like Winston has dragonblade but
+
+191
+00:07:18,759 --> 00:07:20,769
+it is a cheap man's version and it will
+
+192
+00:07:20,769 --> 00:07:23,199
+do the job and it's very easy to burst
+
+193
+00:07:23,199 --> 00:07:25,419
+down someone actually if you put them in
+
+194
+00:07:25,419 --> 00:07:27,069
+the right place and it and speaking of
+
+195
+00:07:27,069 --> 00:07:28,329
+putting someone in the right place
+
+196
+00:07:28,329 --> 00:07:30,849
+there's a real skill in this ultimate to
+
+197
+00:07:30,849 --> 00:07:33,489
+just getting a key target out of the way
+
+198
+00:07:33,489 --> 00:07:35,289
+maybe you won't kill them but if you're
+
+199
+00:07:35,289 --> 00:07:37,599
+smack in the enemy Rinehart around or
+
+200
+00:07:37,599 --> 00:07:39,969
+another tank then the squishies are
+
+201
+00:07:39,969 --> 00:07:41,499
+going to be a lot more susceptible to
+
+202
+00:07:41,499 --> 00:07:44,919
+damage from your team this abilities of
+
+203
+00:07:44,919 --> 00:07:47,139
+course also used to stay alive against
+
+204
+00:07:47,139 --> 00:07:49,839
+big chunky Ultimates like Road hogs or
+
+205
+00:07:49,839 --> 00:07:52,869
+divas even and also to get back to a
+
+206
+00:07:52,869 --> 00:07:54,669
+point when you're about to lose the game
+
+207
+00:07:54,669 --> 00:07:57,219
+or you need to stall it out it's a very
+
+208
+00:07:57,219 --> 00:08:00,009
+versatile ability and again like a wrist
+
+209
+00:08:00,009 --> 00:08:02,409
+as I think is underutilized just because
+
+210
+00:08:02,409 --> 00:08:04,449
+people don't even know the stuff you can
+
+211
+00:08:04,449 --> 00:08:06,519
+do with it so make sure you try and use
+
+212
+00:08:06,519 --> 00:08:08,589
+this ability to get an enemy ultimate
+
+213
+00:08:08,589 --> 00:08:11,289
+away from your team or to juggle a hero
+
+214
+00:08:11,289 --> 00:08:13,659
+somewhere out of the way that's causing
+
+215
+00:08:13,659 --> 00:08:16,299
+you problems last up we have mercy
+
+216
+00:08:16,299 --> 00:08:19,389
+Valkyrie and IRISA ultimate also comes
+
+217
+00:08:19,389 --> 00:08:22,689
+the Bongo into this argument but that's
+
+218
+00:08:22,689 --> 00:08:24,789
+for the same reason and that is actually
+
+219
+00:08:24,789 --> 00:08:27,579
+the time that you use this ability
+
+220
+00:08:27,579 --> 00:08:30,339
+because Mercy's Valcke even though she's
+
+221
+00:08:30,339 --> 00:08:32,649
+been nerfed loads is still one of the
+
+222
+00:08:32,649 --> 00:08:34,870
+best abilities in the entire game and
+
+223
+00:08:34,870 --> 00:08:37,149
+mercy is still one of the best heroes in
+
+224
+00:08:37,149 --> 00:08:39,188
+the entire game when utilized in the
+
+225
+00:08:39,188 --> 00:08:41,259
+right comp and what people do with
+
+226
+00:08:41,259 --> 00:08:43,599
+Valkyrie a lot of the time is they pop
+
+227
+00:08:43,599 --> 00:08:45,699
+their ultimate too late when they've
+
+228
+00:08:45,699 --> 00:08:47,949
+already lost a teammate or they pop it
+
+229
+00:08:47,949 --> 00:08:48,910
+so early
+
+230
+00:08:48,910 --> 00:08:51,760
+your team can't use that damage check
+
+231
+00:08:51,760 --> 00:08:54,070
+Herry through the fight also when in
+
+232
+00:08:54,070 --> 00:08:55,840
+vogue remember that it's a lot easier to
+
+233
+00:08:55,840 --> 00:08:58,270
+get that mid fight res which is still
+
+234
+00:08:58,270 --> 00:09:00,760
+incredibly powerful you have to make
+
+235
+00:09:00,760 --> 00:09:02,860
+sure you use both of these Ultimates
+
+236
+00:09:02,860 --> 00:09:06,310
+Bongo and Valcke at the break of a
+
+237
+00:09:06,310 --> 00:09:09,120
+teamfight or when an enemy is
+
+238
+00:09:09,120 --> 00:09:11,200
+overextended say their tank is a little
+
+239
+00:09:11,200 --> 00:09:14,140
+bit too close to you you can pop either
+
+240
+00:09:14,140 --> 00:09:16,450
+of these two Ultimates to use the damage
+
+241
+00:09:16,450 --> 00:09:18,760
+to burst through the enemy tank when
+
+242
+00:09:18,760 --> 00:09:20,710
+that happens you can push forward
+
+243
+00:09:20,710 --> 00:09:22,870
+because the enemy team can't push into
+
+244
+00:09:22,870 --> 00:09:25,030
+you with Bongo or damage boost from
+
+245
+00:09:25,030 --> 00:09:26,980
+Valcke because there's just too much
+
+246
+00:09:26,980 --> 00:09:29,350
+damage coming their way so if you get
+
+247
+00:09:29,350 --> 00:09:31,870
+someone that's either out of position or
+
+248
+00:09:31,870 --> 00:09:34,030
+you use it on the break of the fight at
+
+249
+00:09:34,030 --> 00:09:35,800
+the right time you will see a lot more
+
+250
+00:09:35,800 --> 00:09:38,710
+success with both of these abilities so
+
+251
+00:09:38,710 --> 00:09:40,450
+guys that's just about everything let us
+
+252
+00:09:40,450 --> 00:09:41,740
+know what you think in the comment
+
+253
+00:09:41,740 --> 00:09:43,150
+section down below be sure to drop a
+
+254
+00:09:43,150 --> 00:09:44,470
+like because it does help us out and
+
+255
+00:09:44,470 --> 00:09:45,640
+lets us know that you're enjoying the
+
+256
+00:09:45,640 --> 00:09:46,960
+content and you're going to want to hit
+
+257
+00:09:46,960 --> 00:09:48,250
+that Bell icon so that you get notified
+
+258
+00:09:48,250 --> 00:09:50,320
+when our videos go live you have a great
+
+259
+00:09:50,320 --> 00:09:54,060
+day as always take care of these people
+
+260
+00:09:56,370 --> 00:00:00,000
+[Music]
+

@@ -25,6 +25,7 @@
         };
       };
 
+      // headre取り出し
       var header = data[0];
       delete data[0];
 
@@ -144,12 +145,20 @@
       target2.innerHTML = "(" + result.length + " " +  result[1].length + ")";
 
     });
+
+    $('#btn2').click(function() {
+        target = document.getElementById("output");
+        target_in = document.getElementById("td_mark");
+        target.innerHTML = target_in.childNodes[1].childNodes[1].type;
+        //target_in.childNodes.innerHTML;
+    });
   });
 
   </script>
 </head>
 <body>
   <input type="button" id="btn1" value='botton'>
+  <input type="button" id="btn2" value='botton2'>
 
   <!-- radio:nameを統一してはいけない -->
   <table border="1" id="ttable">
@@ -171,7 +180,7 @@
     </select>
   </td>
 </tr>
-<tr><td>b1</td><td>b2</td><td>      <p>
+<tr><td>b1</td><td>b2</td><td id="td_mark">      <p>
   <input type="radio" name="example_b" value="0">0
   <input type="radio" name="example_b" value="1" checked>1
 </p></td>
