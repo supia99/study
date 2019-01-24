@@ -146,11 +146,17 @@
 
     });
 
+    // jQuery isによるチェック
+    // https://teratail.com/questions/1660
     $('#btn2').click(function() {
         target = document.getElementById("output");
         target_in = document.getElementById("td_mark");
         target.innerHTML = target_in.childNodes[1].childNodes[1].type;
+        console.log("1:" + target_in.childNodes[1]);
+        console.log("2:" + target_in.childNodes[1].childNodes[1]);
+        console.log("childeren 1:" + $(target_in.childNodes[1].children).is(':input'));
         //target_in.childNodes.innerHTML;
+
     });
   });
 
