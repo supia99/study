@@ -148,14 +148,40 @@
 
     // jQuery isによるチェック
     // https://teratail.com/questions/1660
+    // @return
+    // 0:non input or select
+    // 1:input type=text
+    // 2:input type=radio
+    // 3:select
     $('#btn2').click(function() {
         target = document.getElementById("output");
         target_in = document.getElementById("td_mark");
-        target.innerHTML = target_in.childNodes[1].childNodes[1].type;
-        console.log("1:" + target_in.childNodes[1]);
-        console.log("2:" + target_in.childNodes[1].childNodes[1]);
-        console.log("childeren 1:" + $(target_in.childNodes[1].children).is(':input'));
+        target_in_select = document.getElementById("td_mark_select");
+        target.innerHTML = target_in.childNodes[0].childNodes[1].type;
+        console.log("1:" + target_in.childNodes[0]);
+        console.log("2:" + target_in.childNodes[0].childNodes[1]);
+        console.log("find:" + $(target_in.childNodes[0].children).is(':text'));
+        console.log("find:" + ($(target_in.childNodes.children).is('select')));
+        //console.log("find select:" + ($(target_in_select).is(':select')));
+        console.log("find select:" + ($(target_in_select).is('select')));
+
+        if($(target_in.childNodes[0].children).is(':input')) {
+          if($(target_in.childNodes[0].children).is(':text')) {
+            console.log("Yes, input type=text");
+          } else if($(target_in.childNodes[0].children).is(':radio')) {
+            console.log("Yes, input type=radio");
+          } else {
+            console.log("Yes,input. No,text and radio.");
+          }
+        } else if ($(target_in.childNodes[0].children).is(':select')) {
+          console.log("Yes, select");
+        } else {
+          console.log("No");
+        }
+        //console.log("childeren 1:" + $(target_in.childNodes[1].children).is(':input'));
         //target_in.childNodes.innerHTML;
+
+
 
     });
   });
@@ -186,12 +212,12 @@
     </select>
   </td>
 </tr>
-<tr><td>b1</td><td>b2</td><td id="td_mark">      <p>
+<tr><td>b1</td><td>b2</td><td id="td_mark"><p>
   <input type="radio" name="example_b" value="0">0
   <input type="radio" name="example_b" value="1" checked>1
 </p></td>
 <td><input type="text" value="b4" /></td>
-<td><select >
+<td id="td_mark_select"><select >
   <option value="0">0</option>
   <option value="1">1</option>
   <option value="2">2</option>
