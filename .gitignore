@@ -1,2 +1,6 @@
 # google driveのログ
 .tmp.drivedownload
+
+# UMLグラフ作成
+graphviz
+plantuml
