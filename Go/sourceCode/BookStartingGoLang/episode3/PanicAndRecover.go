@@ -22,8 +22,8 @@ func testRecover(src interface{}) {
 	return
 }
 
-// func main() {
-// 	testRecover(128)
-// 	testRecover("hogehoge")
-// 	testRecover([...]int{1, 2, 3})
-// }
+func main() {
+	testRecover(128)
+	testRecover("hogehoge")
+	testRecover([...]int{1, 2, 3})
+}
