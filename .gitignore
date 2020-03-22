@@ -4,3 +4,9 @@
 # UMLグラフ作成
 graphviz
 plantuml
+
+# git other repogitory folder
+repogitory/
+
+# scraping html folder
+htmlPage/
