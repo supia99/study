@@ -7,7 +7,9 @@ import (
 	"log"
 	"net/http"
 	"os"
-	// "github.com/PuerkitoBio/goquery"
+	"strings"
+
+	"github.com/PuerkitoBio/goquery"
 )
 
 var (
@@ -64,7 +66,31 @@ func InputFile(fileName string) (string, error) {
 		return "", err
 	}
 
-	return (string)(contentBytes), nil
+	return string(contentBytes), nil
+}
+
+//
+func Scrape(fileContent string) error {
+
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader(fileContent))
+	if err != nil {
+		return err
+	}
+	fmt.Println("title:", doc.Find("title").Text())
+	selection := doc.Find("div.release_contents") //pセレクタの内容を取得
+	selection = selection.Find("a")
+	fmt.Println(selection.Attr("href"))
+	// for i := range selection.Nodes {
+	// 	fmt.Println(" |", i, "|", selection.Eq(i).Text())
+	// }
+
+	// if selection != nil {
+	// 	fmt.Println("=finder=\n", selection.Text())
+	// } else {
+	// 	fmt.Println("no target selection!")
+	// }
+
+	return nil
 }
 
 func main() {
@@ -84,11 +110,7 @@ func main() {
 		logger.Print(err.Error())
 	}
 
-	fmt.Println("==file content==\n", page)
-	//doc, err := goquery.NewDocument("https://www.lantis.jp/imas/release.html")
-	// if err != nil {
-	// 	panic(err)
-	// }
+	// fmt.Println("==file content==\n", page)
+	Scrape(page)
 
-	// fmt.Println(doc)
 }
