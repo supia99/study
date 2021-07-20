@@ -20,7 +20,7 @@ recTime=$3
 mkdir -p ~/tmp/radio
 
 fileName=${programName}_`date "+%Y%m%d-%H%M%S"`
-/home/kawajiri/github/study/bash/rec_AAndGPlus/radish/radi.sh -t radiko -s ${radioStation} -d $((recTime+1)) ~/tmp/radio/${fileName}
+/home/kawajiri/github/study/bash/rec_AAndGPlus/radish/radi.sh -t radiko -s ${radioStation} -d $((recTime+1)) -o ~/tmp/radio/${fileName}
 
-cp ~/tmp/radio/${fileName} ${UPLOAD_TUF}
-cp ~/tmp/radio/${fileName} ${UPLOAD_LANDISK}${radioStation}/
+cp ~/tmp/radio/${fileName}* ${UPLOAD_TUF}
+cp ~/tmp/radio/${fileName}* ${UPLOAD_LANDISK}${radioStation}/
